@@ -79,7 +79,7 @@ B[1][0] = scipy.misc.derivative(dh2, 1.0, dx = 0.01) #modificar a variável p/ s
 # Terceira linha
 B[2][0] = scipy.misc.derivative(dh3, 1.0, dx = 0.01) #modificar a variável p/ ser em u
 
-C = numpy.zeros(3)
+C = numpy.zeros(3) 
 
 # Primeira coluna
 C[0][0] = scipy.misc.derivative(dh1, 1.0, dx = 0.01) #modificar a variável p/ ser em h1
